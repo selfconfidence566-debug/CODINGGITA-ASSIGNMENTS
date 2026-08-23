@@ -15,6 +15,7 @@ Do we need to configure name and email for every new project? Why or why not?
 Submission: Screenshot + written answers
 
 **ANSWER**
+<img width="1919" height="881" alt="image" src="https://github.com/user-attachments/assets/a571b4a3-a7fe-4543-9ec2-69a1dacb2581" />
 
 <img width="1280" height="963" alt="day 4 assignment 1 and 2 " src="https://github.com/user-attachments/assets/47b21930-333b-48f2-990e-78a70faec66a" />
 
