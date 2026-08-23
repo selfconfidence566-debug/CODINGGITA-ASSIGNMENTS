@@ -70,6 +70,10 @@ Submission: List of commands used + short answers
 
 <img width="1280" height="963" alt="day 3 assignment 3" src="https://github.com/user-attachments/assets/45f9000e-361d-4cbe-bfef-c652bb97abdb" />
 
+<img width="1919" height="339" alt="git bash version checkking" src="https://github.com/user-attachments/assets/d5cff053-154f-40b2-b667-969838626507" />
+
+<img width="694" height="841" alt="image" src="https://github.com/user-attachments/assets/59a7267a-c645-48de-bf19-106b9f187b0e" />
+
 
 Assignment 4: File & Folder Operations (Practical)
 Objective: Practice creating, copying, moving, and deleting files/folders.
@@ -94,6 +98,13 @@ Submission: Commands list + answers
 **ANSWER**
 
 <img width="1280" height="963" alt="day 3 assignment 04" src="https://github.com/user-attachments/assets/17722a95-f31f-4e4e-9333-c1f1f4ea37d3" />
+
+<img width="1161" height="702" alt="ss current 1" src="https://github.com/user-attachments/assets/c54b5c58-5c65-435f-9225-1ec7f5935c7d" />
+
+<img width="1919" height="1028" alt="ss day 4 last ss" src="https://github.com/user-attachments/assets/d2ce6b50-23ab-4fe6-a783-037f61616e54" />
+
+
+
 
 Assignment 5: Command Meaning + Reflection
 Objective: Test overall understanding of Day 3 commands.
