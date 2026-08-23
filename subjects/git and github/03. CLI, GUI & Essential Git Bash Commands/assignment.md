@@ -35,6 +35,11 @@ Submission: Written answers + Screenshots
 
 <img width="1280" height="963" alt="day 3 assignment 2 pg 1" src="https://github.com/user-attachments/assets/bcc2fcd2-bf1b-4be8-b88c-662354ebb2e2" />
 
+<img width="1919" height="339" alt="git bash version checkking" src="https://github.com/user-attachments/assets/1d7f477a-bb16-4b68-8be5-95a8130f16cb" />
+
+<img width="1919" height="1034" alt="day 2 ss 1" src="https://github.com/user-attachments/assets/b3c1bde2-466c-4af9-b847-75beb7a8892c" />
+
+
 
 Assignment 3: Navigation & Listing Commands (Practical)
 Objective: Practice everyday navigation commands.
