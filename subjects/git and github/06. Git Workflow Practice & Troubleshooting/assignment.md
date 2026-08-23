@@ -39,6 +39,7 @@ Note: Make sure your repository is public (or accessible to the mentor) so the s
 
 <img width="1280" height="963" alt="day 6 assignment 1 pg 2" src="https://github.com/user-attachments/assets/e9405d71-ede1-40fb-9c18-30600360d852" />
 
+<img width="909" height="995" alt="image" src="https://github.com/user-attachments/assets/fb06fcaa-d45d-4230-b910-78d8ceec758f" />
 
 
 
