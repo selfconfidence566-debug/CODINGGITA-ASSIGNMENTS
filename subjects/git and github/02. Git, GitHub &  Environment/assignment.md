@@ -64,6 +64,7 @@ Submission: Screenshots + written answers
 **ANSWER**
 
 <img width="1280" height="963" alt="day 2 assignment 3 pg 1" src="https://github.com/user-attachments/assets/56b43849-6736-4df5-8900-06423fc03fcb" />
+<img width="1919" height="1034" alt="day 2 ss 1" src="https://github.com/user-attachments/assets/b54c273d-63f6-4b0e-b61d-bf503912a021" />
 
 
 Assignment 4: GitHub Overview (Practical)
