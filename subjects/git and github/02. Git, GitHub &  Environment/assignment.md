@@ -89,6 +89,9 @@ Submission: Screenshots + written answers
 **ANSWER**
 
 <img width="1280" height="963" alt="day 2 assignment 4 pg 1" src="https://github.com/user-attachments/assets/4d323785-b985-449a-a6e0-18616e500679" />
+<img width="1919" height="866" alt="git repo ss" src="https://github.com/user-attachments/assets/8d8556c1-0502-4e6a-8d11-f0468698a407" />
+<img width="1860" height="845" alt="git gridd" src="https://github.com/user-attachments/assets/b94c2f53-729a-48db-8b89-e6fecfb3fc2f" />
+
 
 
 Assignment 5: Conceptual Clarity + Reflection
