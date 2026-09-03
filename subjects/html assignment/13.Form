@@ -1,1 +1,809 @@
+### Question 1
+**ANSWER**
 
+<form action="/submit.php" method="post" autocomplete="on">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 2
+**ANSWER**
+
+<form action="/search.php" method="get">
+    <input type="search" name="query" placeholder="Search">
+    <input type="submit" value="Search">
+</form>
+
+
+### Question 3
+**ANSWER**
+
+<form action="/submit.php" method="post" novalidate>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 4
+**ANSWER**
+
+<form action="/submit.php" method="post"
+      enctype="application/x-www-form-urlencoded">
+
+    <!-- This is the default form encoding type. -->
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 5
+**ANSWER**
+
+<form action="/upload.php" method="post"
+      enctype="multipart/form-data">
+
+    <label for="file">Choose File:</label>
+    <input type="file" id="file" name="file">
+
+    <input type="submit" value="Upload">
+</form>
+
+
+### Question 6
+**ANSWER**
+
+<form action="/submit.php" method="post" enctype="text/plain">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message">
+
+    <!-- text/plain encoding is rarely used in real projects. -->
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 7
+**ANSWER**
+
+<form action="/submit.php" method="post"
+      name="userForm" target="_blank">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 8
+**ANSWER**
+
+<form action="/submit.php" method="post">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <input type="submit" value="Submit">
+</form>
+
+
+### Question 9
+**ANSWER**
+
+<form>
+    <p>Gender:</p>
+
+    <input type="radio" id="male" name="gender" value="male" checked>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+</form>
+
+
+### Question 10
+**ANSWER**
+
+<form>
+    <p>Hobbies:</p>
+
+    <input type="checkbox" id="reading" name="hobbies"
+           value="reading" checked>
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" id="music" name="hobbies"
+           value="music">
+    <label for="music">Music</label>
+
+    <input type="checkbox" id="sports" name="hobbies"
+           value="sports">
+    <label for="sports">Sports</label>
+</form>
+
+
+### Question 11
+**ANSWER**
+
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+    <option value="bmw">BMW</option>
+    <option value="audi">Audi</option>
+    <option value="toyota">Toyota</option>
+</select>
+
+
+### Question 12
+**ANSWER**
+
+<label for="courses">Choose courses:</label>
+
+<select name="courses" id="courses" multiple size="3">
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="javascript">JavaScript</option>
+    <option value="python">Python</option>
+</select>
+
+
+### Question 13
+**ANSWER**
+
+<label for="fruits">Choose fruits:</label>
+
+<select name="fruits" id="fruits">
+
+    <optgroup label="Tropical Fruits">
+        <option value="mango">Mango</option>
+        <option value="banana">Banana</option>
+    </optgroup>
+
+    <optgroup label="Other Fruits">
+        <option value="apple">Apple</option>
+        <option value="orange">Orange</option>
+    </optgroup>
+
+</select>
+
+
+### Question 14
+**ANSWER**
+
+<label for="message">Comments:</label>
+
+<textarea id="message" name="message"
+          rows="4" cols="50"
+          placeholder="Enter your comments here"></textarea>
+
+
+### Question 15
+**ANSWER**
+
+<form>
+
+    <button type="submit">Submit</button>
+
+    <button type="reset">Reset</button>
+
+    <button type="button">Click Me</button>
+
+</form>
+
+
+### Question 16
+**ANSWER**
+
+<fieldset>
+
+    <legend>Personal Information</legend>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+</fieldset>
+
+
+### Question 17
+**ANSWER**
+
+<fieldset disabled>
+
+    <legend>Account Information</legend>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+
+</fieldset>
+
+
+### Question 18
+**ANSWER**
+
+<label for="browser">Choose a browser:</label>
+
+<input list="browsers" id="browser" name="browser">
+
+<datalist id="browsers">
+    <option value="Google Chrome">
+    <option value="Mozilla Firefox">
+    <option value="Microsoft Edge">
+</datalist>
+
+
+### Question 19
+**ANSWER**
+
+<label for="password">Password:</label>
+
+<input type="password"
+       id="password"
+       name="password"
+       required
+       minlength="8">
+
+
+### Question 20
+**ANSWER**
+
+<label for="emails">Email Addresses:</label>
+
+<input type="email"
+       id="emails"
+       name="emails"
+       multiple
+       placeholder="email1@example.com, email2@example.com">
+
+
+### Question 21
+**ANSWER**
+
+<label for="date">Select Date:</label>
+
+<input type="date"
+       id="date"
+       name="date"
+       min="2023-01-01"
+       max="2023-12-31">
+
+
+### Question 22
+**ANSWER**
+
+<label for="quantity">Quantity:</label>
+
+<input type="number"
+       id="quantity"
+       name="quantity"
+       min="1"
+       max="10"
+       step="1">
+
+
+### Question 23
+**ANSWER**
+
+<label for="volume">Volume:</label>
+
+<input type="range"
+       id="volume"
+       name="volume"
+       min="0"
+       max="100"
+       value="50">
+
+
+### Question 24
+**ANSWER**
+
+<form action="/upload.php"
+      method="post"
+      enctype="multipart/form-data">
+
+    <label for="document">Upload Document:</label>
+
+    <input type="file"
+           id="document"
+           name="document"
+           accept=".pdf,.docx"
+           required>
+
+    <input type="submit" value="Upload">
+
+</form>
+
+
+### Question 25
+**ANSWER**
+
+<form action="/submit.php" method="post">
+
+    <input type="hidden"
+           name="sessionToken"
+           value="ABC123XYZ">
+
+    <input type="submit" value="Submit">
+
+</form>
+
+
+### Question 26
+**ANSWER**
+
+<label for="color">Favorite Color:</label>
+
+<input type="color"
+       id="color"
+       name="color"
+       value="#ff0000">
+
+
+### Question 27
+**ANSWER**
+
+<label for="phone">Phone Number:</label>
+
+<input type="tel"
+       id="phone"
+       name="phone"
+       pattern="[0-9]{10}"
+       placeholder="Enter 10-digit phone number">
+
+
+### Question 28
+**ANSWER**
+
+<label for="website">Website:</label>
+
+<input type="url"
+       id="website"
+       name="website"
+       required
+       placeholder="https://example.com">
+
+
+### Question 29
+**ANSWER**
+
+<label for="search">Search:</label>
+
+<input type="search"
+       id="search"
+       name="search"
+       autofocus
+       placeholder="Search here">
+
+
+### Question 30
+**ANSWER**
+
+<form id="myForm" action="/submit.php" method="post">
+
+    <button type="submit">Submit</button>
+
+</form>
+
+<label for="username">Username:</label>
+
+<input type="text"
+       id="username"
+       name="username"
+       form="myForm">
+
+
+### Question 31
+**ANSWER**
+
+<form action="/default.php" method="post">
+
+    <input type="text" name="name">
+
+    <button type="submit">Default Submit</button>
+
+    <button type="submit"
+            formaction="/other.php">
+        Submit to Other Page
+    </button>
+
+</form>
+
+
+### Question 32
+**ANSWER**
+
+<form action="/submit.php" method="post">
+
+    <input type="text" name="name">
+
+    <button type="submit">
+        Submit with POST
+    </button>
+
+    <button type="submit" formmethod="get">
+        Submit with GET
+    </button>
+
+</form>
+
+
+### Question 33
+**ANSWER**
+
+<form action="/register.php" method="post">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Register</button>
+
+    <button type="submit" formnovalidate>
+        Save as Draft
+    </button>
+
+</form>
+
+
+### Question 34
+**ANSWER**
+
+<form action="/submit.php" method="post">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <button type="submit">
+        Submit
+    </button>
+
+    <button type="submit" formtarget="_blank">
+        Preview in New Tab
+    </button>
+
+</form>
+
+
+### Question 35
+**ANSWER**
+
+<form action="/login.php" method="post">
+
+    <label for="username">Username:</label>
+    <input type="text"
+           id="username"
+           name="username"
+           required>
+
+    <label for="password">Password:</label>
+    <input type="password"
+           id="password"
+           name="password"
+           required
+           minlength="8">
+
+    <input type="submit" value="Login">
+
+</form>
+
+
+### Question 36
+**ANSWER**
+
+<form action="/register.php" method="post">
+
+    <fieldset>
+
+        <legend>Personal Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text"
+               id="name"
+               name="name"
+               required>
+
+        <label for="email">Email:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               required>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Preferences</legend>
+
+        <input type="checkbox"
+               id="newsletter"
+               name="newsletter"
+               value="yes"
+               required>
+
+        <label for="newsletter">
+            Subscribe to Newsletter
+        </label>
+
+    </fieldset>
+
+    <input type="submit" value="Register">
+
+</form>
+
+
+### Question 37
+**ANSWER**
+
+<form action="/contact.php" method="post">
+
+    <label for="name">Name:</label>
+    <input type="text"
+           id="name"
+           name="name"
+           required>
+
+    <label for="email">Email:</label>
+    <input type="email"
+           id="email"
+           name="email"
+           required>
+
+    <label for="message">Message:</label>
+
+    <textarea id="message"
+              name="message"
+              rows="5"
+              cols="50"
+              required></textarea>
+
+    <input type="submit" value="Send Message">
+
+</form>
+
+
+### Question 38
+**ANSWER**
+
+<form action="/feedback.php" method="post">
+
+    <label for="satisfaction">
+        Satisfaction:
+    </label>
+
+    <input type="range"
+           id="satisfaction"
+           name="satisfaction"
+           min="1"
+           max="10"
+           value="5">
+
+    <p>Would you recommend us?</p>
+
+    <input type="radio"
+           id="yes"
+           name="recommend"
+           value="yes">
+
+    <label for="yes">Yes</label>
+
+    <input type="radio"
+           id="no"
+           name="recommend"
+           value="no">
+
+    <label for="no">No</label>
+
+    <label for="comments">Comments:</label>
+
+    <textarea id="comments"
+              name="comments"
+              rows="4"
+              cols="50"></textarea>
+
+    <input type="submit" value="Submit Feedback">
+
+</form>
+
+
+### Question 39
+**ANSWER**
+
+<form action="/upload.php"
+      method="post"
+      enctype="multipart/form-data">
+
+    <label for="resume">Resume:</label>
+
+    <input type="file"
+           id="resume"
+           name="resume"
+           accept=".pdf,.docx"
+           required>
+
+    <label for="photo">Profile Photo:</label>
+
+    <input type="file"
+           id="photo"
+           name="photo"
+           accept="image/*">
+
+    <input type="submit" value="Upload">
+
+</form>
+
+
+### Question 40
+**ANSWER**
+
+<form action="/search.php" method="get">
+
+    <label for="search">Search:</label>
+
+    <input type="search"
+           id="search"
+           name="query"
+           autofocus
+           placeholder="Search the website">
+
+    <input type="submit" value="Search">
+
+</form>
+
+
+### Question 41
+**ANSWER**
+
+<form action="/apply.php"
+      method="post"
+      enctype="multipart/form-data">
+
+    <fieldset>
+
+        <legend>Personal Details</legend>
+
+        <label for="name">Name:</label>
+        <input type="text"
+               id="name"
+               name="name"
+               required>
+
+        <label for="email">Email:</label>
+        <input type="email"
+               id="email"
+               name="email"
+               required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel"
+               id="phone"
+               name="phone"
+               required>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Experience</legend>
+
+        <label for="experience">Experience:</label>
+
+        <textarea id="experience"
+                  name="experience"
+                  rows="5"
+                  cols="50"></textarea>
+
+    </fieldset>
+
+    <label for="resume">Resume:</label>
+
+    <input type="file"
+           id="resume"
+           name="resume"
+           accept=".pdf"
+           required>
+
+    <p>Employment Type:</p>
+
+    <input type="radio"
+           id="fulltime"
+           name="employment"
+           value="fulltime">
+
+    <label for="fulltime">Full Time</label>
+
+    <input type="radio"
+           id="parttime"
+           name="employment"
+           value="parttime">
+
+    <label for="parttime">Part Time</label>
+
+    <br>
+
+    <input type="checkbox"
+           id="terms"
+           name="terms"
+           value="accepted"
+           required>
+
+    <label for="terms">
+        I agree to the terms and conditions
+    </label>
+
+    <br>
+
+    <button type="submit">Submit Application</button>
+
+    <button type="submit" formnovalidate>
+        Save Draft
+    </button>
+
+</form>
+
+
+### Question 42
+**ANSWER**
+
+<form action="/default.php"
+      method="post"
+      target="_self">
+
+    <label for="name">Name:</label>
+
+    <input type="text"
+           id="name"
+           name="name"
+           required>
+
+    <label for="email">Email:</label>
+
+    <input type="email"
+           id="email"
+           name="email"
+           required>
+
+    <button type="submit"
+            formaction="/save.php">
+        Use formaction
+    </button>
+
+    <button type="submit"
+            formmethod="get">
+        Use formmethod
+    </button>
+
+    <button type="submit"
+            formnovalidate>
+        Use formnovalidate
+    </button>
+
+    <button type="submit"
+            formtarget="_blank">
+        Use formtarget
+    </button>
+
+</form>
