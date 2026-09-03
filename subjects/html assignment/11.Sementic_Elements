@@ -1,1 +1,508 @@
+1.
 
+Write a complete mini page structure that contains:
+- one header
+- one main area
+- one article inside the main area
+- one aside
+- one footer
+
+**ANSWER**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Page</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my website.</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>About Us</h2>
+            <p>This is the main content of our website.</p>
+        </article>
+
+        <aside>
+            <p>Related information</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
+
+
+2.
+
+Create a full self-contained news item using semantic elements.
+
+**ANSWER**
+
+<section>
+    <article>
+
+        <header>
+            <h1>New Technology Launched</h1>
+        </header>
+
+        <p>
+            Published on
+            <time datetime="2026-09-03">September 3, 2026</time>.
+        </p>
+
+        <p>
+            This is a <mark>new technology</mark>
+            for modern users.
+        </p>
+
+        <footer>
+            <p>Written by John Smith</p>
+        </footer>
+
+    </article>
+</section>
+
+
+3.
+
+Build a complete blog-style page with header, navigation,
+main content, two articles, aside and footer.
+
+**ANSWER**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Blog</title>
+</head>
+<body>
+
+    <header>
+        <h1>My Blog</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>Learning HTML</h2>
+            <p>HTML is used to create web pages.</p>
+        </article>
+
+        <article>
+            <h2>Learning CSS</h2>
+            <p>CSS is used to style web pages.</p>
+        </article>
+
+        <aside>
+            <h2>Related Links</h2>
+            <a href="#">HTML Tutorial</a><br>
+            <a href="#">CSS Tutorial</a>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2026 My Blog</p>
+    </footer>
+
+</body>
+</html>
+
+
+4.
+
+Create an FAQ section with three expandable questions.
+
+**ANSWER**
+
+<section>
+
+    <h1>Frequently Asked Questions</h1>
+
+    <details>
+        <summary>What is HTML?</summary>
+        <p>HTML is used to create the structure of web pages.</p>
+    </details>
+
+    <details>
+        <summary>What is CSS?</summary>
+        <p>CSS is used to style web pages.</p>
+    </details>
+
+    <details>
+        <summary>What is JavaScript?</summary>
+        <p>JavaScript adds interactivity to web pages.</p>
+    </details>
+
+</section>
+
+
+5.
+
+Create a product page with an article, image, caption,
+technical specifications and seller information.
+
+**ANSWER**
+
+<main>
+
+    <article>
+
+        <h1>Smartphone X</h1>
+
+        <p>
+            Smartphone X is a modern smartphone with a powerful
+            processor and a high-quality camera.
+        </p>
+
+        <figure>
+            <img src="smartphone.jpg"
+                 alt="Smartphone X"
+                 width="300">
+
+            <figcaption>Smartphone X</figcaption>
+        </figure>
+
+        <details>
+            <summary>Technical Specifications</summary>
+
+            <p>
+                Processor: Octa-Core<br>
+                RAM: 8 GB<br>
+                Storage: 128 GB
+            </p>
+        </details>
+
+    </article>
+
+    <aside>
+        <h2>Seller Information</h2>
+        <p>Seller: Tech Store</p>
+    </aside>
+
+</main>
+
+
+6.
+
+Create an article page demonstrating time and highlighting.
+
+**ANSWER**
+
+<article>
+
+    <header>
+        <h1>The Future of Technology</h1>
+    </header>
+
+    <p>
+        Published on
+        <time datetime="2026-09-03">September 3, 2026</time>
+    </p>
+
+    <p>
+        Reading time:
+        <time datetime="PT5M">5 minutes</time>
+    </p>
+
+    <p>
+        Technology is changing our lives and
+        <mark>artificial intelligence</mark>
+        is becoming important.
+    </p>
+
+    <aside>
+        <h2>Related Information</h2>
+        <p>Learn more about modern technology.</p>
+    </aside>
+
+    <footer>
+        <p>Author: John Smith</p>
+    </footer>
+
+</article>
+
+
+7.
+
+Build a page with navigation in the header, aside and footer.
+
+**ANSWER**
+
+<header>
+
+    <h1>My Website</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <h2>Welcome</h2>
+    <p>Welcome to my website.</p>
+
+</main>
+
+<aside>
+
+    <nav>
+        <a href="#">Technology</a><br>
+        <a href="#">Sports</a><br>
+        <a href="#">Education</a>
+    </nav>
+
+</aside>
+
+<footer>
+
+    <nav>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+    </nav>
+
+</footer>
+
+
+8.
+
+Create a review section with an article, figure, caption,
+expandable review and publication time.
+
+**ANSWER**
+
+<section>
+
+    <article>
+
+        <header>
+            <h1>Smartphone Review</h1>
+        </header>
+
+        <figure>
+            <img src="phone.jpg"
+                 alt="Smartphone"
+                 width="300">
+
+            <figcaption>Smartphone Review</figcaption>
+        </figure>
+
+        <p>
+            Published on
+            <time datetime="2026-09-03">September 3, 2026</time>
+        </p>
+
+        <details>
+            <summary>Read Full Review</summary>
+
+            <p>
+                This smartphone has good performance,
+                a clear display and a powerful camera.
+            </p>
+        </details>
+
+        <footer>
+            <p>Reviewed by John Smith</p>
+        </footer>
+
+    </article>
+
+</section>
+
+
+9.
+
+Create a mini website homepage using semantic elements.
+
+**ANSWER**
+
+<header>
+
+    <h1>Tech World</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section>
+
+        <article>
+
+            <header>
+                <h2>Latest Technology</h2>
+            </header>
+
+            <p>
+                Technology is developing rapidly and
+                <mark>innovation</mark> is changing our future.
+            </p>
+
+            <figure>
+                <img src="technology.jpg"
+                     alt="Modern Technology"
+                     width="300">
+
+                <figcaption>Modern Technology</figcaption>
+            </figure>
+
+            <footer>
+                <p>
+                    Published on
+                    <time datetime="2026-09-03">
+                        September 3, 2026
+                    </time>
+                </p>
+            </footer>
+
+        </article>
+
+    </section>
+
+    <section>
+
+        <article>
+
+            <header>
+                <h2>Learning Web Development</h2>
+            </header>
+
+            <p>
+                Web development is useful for creating websites.
+            </p>
+
+            <details>
+                <summary>Learn More</summary>
+                <p>HTML creates structure and CSS provides styling.</p>
+            </details>
+
+            <footer>
+                <p>Written by John Smith</p>
+            </footer>
+
+        </article>
+
+    </section>
+
+    <aside>
+        <h2>Related Content</h2>
+        <p>Technology and web development articles.</p>
+    </aside>
+
+</main>
+
+<footer>
+    <p>Copyright &copy; 2026 Tech World</p>
+</footer>
+
+
+10.
+
+Create a news magazine layout with two news sections,
+articles, highlighted text, time elements, aside and footer.
+
+**ANSWER**
+
+<header>
+    <h1>Daily News Magazine</h1>
+</header>
+
+<main>
+
+    <section>
+
+        <article>
+
+            <header>
+                <h2>New Technology Breakthrough</h2>
+            </header>
+
+            <p>
+                Published on
+                <time datetime="2026-09-03">
+                    September 3, 2026
+                </time>
+            </p>
+
+            <p>
+                Scientists announced a
+                <mark>major breakthrough</mark>
+                in technology.
+            </p>
+
+            <footer>
+                <p>Source: Technology News</p>
+            </footer>
+
+        </article>
+
+    </section>
+
+    <section>
+
+        <article>
+
+            <header>
+                <h2>Global Education Update</h2>
+            </header>
+
+            <p>
+                Published on
+                <time datetime="2026-09-03">
+                    September 3, 2026
+                </time>
+            </p>
+
+            <p>
+                New programs are creating
+                <mark>better opportunities</mark>
+                for students.
+            </p>
+
+            <footer>
+                <p>Source: Education News</p>
+            </footer>
+
+        </article>
+
+    </section>
+
+    <aside>
+
+        <h2>Editor's Picks</h2>
+
+        <p>Latest technology trends</p>
+        <p>Education around the world</p>
+
+    </aside>
+
+</main>
+
+<footer>
+    <p>Copyright &copy; 2026 Daily News Magazine</p>
+</footer>
