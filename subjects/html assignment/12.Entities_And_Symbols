@@ -1,1 +1,163 @@
+1.
 
+Write three separate paragraphs that correctly display the reserved characters <, >, and &.
+
+**ANSWER**
+
+<p>The less than symbol is used like this: &lt;</p>
+
+<p>The greater than symbol is used like this: &gt;</p>
+
+<p>The ampersand symbol is written as &amp; in HTML.</p>
+
+<p>Hexadecimal less than symbol: &#x3C;</p>
+
+<p>Hexadecimal greater than symbol: &#x3E;</p>
+
+<p>Hexadecimal ampersand symbol: &#x26;</p>
+
+
+2.
+
+Create a price list that displays three different currency symbols.
+
+**ANSWER**
+
+<p>Euro price: &euro;50</p>
+
+<p>Euro hexadecimal price: &#x20AC;50</p>
+
+<p>Pound price: &pound;40</p>
+
+<p>Pound decimal price: &#163;40</p>
+
+<p>Yen price: &yen;5000</p>
+
+
+3.
+
+Write three mathematical statements that use the correct symbols.
+
+**ANSWER**
+
+<p>10 &ne; 20</p>
+
+<p>Total = &#x2211; of all numbers.</p>
+
+<p>There are infinitely many numbers: &#8734;</p>
+
+
+4.
+
+Create sentences that correctly use en dash and em dash.
+
+**ANSWER**
+
+<p>The course is available from 2023&ndash;2025.</p>
+
+<p>The course is available from 2023&#x2013;2025.</p>
+
+<p>HTML is easy to learn&mdash;practice makes you better.</p>
+
+<p>HTML is easy to learn&#x2014;practice makes you better.</p>
+
+
+5.
+
+Write a copyright and branding footer using the proper legal symbols.
+
+**ANSWER**
+
+<footer>
+
+    <p>&copy; 2026 Tech World</p>
+
+    <p>Tech World&reg; is a registered brand.</p>
+
+    <p>Smart Phone Pro&trade; is our new product.</p>
+
+    <p>Copyright: &#x00A9; 2026</p>
+
+</footer>
+
+
+6.
+
+Create a simple navigation-style text that uses directional arrows.
+
+**ANSWER**
+
+<p>Back &larr;</p>
+
+<p>Next &#x2192;</p>
+
+<p>Top &#8593;</p>
+
+
+7.
+
+Write three paragraphs that display emojis using numeric entities.
+
+**ANSWER**
+
+<p>&#x1F600; Smiling face</p>
+
+<p>&#9989; Task completed</p>
+
+<p>&#x2764; Love and happiness</p>
+
+
+8.
+
+Create a comparison list that shows the same symbol in three formats.
+
+**ANSWER**
+
+<p>Named entity: &copy;</p>
+
+<p>Hexadecimal entity: &#x00A9;</p>
+
+<p>Decimal entity: &#169;</p>
+
+
+9.
+
+Write a short product description that mixes several categories of entities.
+
+**ANSWER**
+
+<p>
+    Our Smart Watch&trade; costs &euro;250.
+    It has a display &gt; 1.5 inches and supports
+    10 &ne; 20 fitness modes.
+    Buy now &#x2192; &#169; 2026 Tech World.
+</p>
+
+
+10.
+
+Create a complete mini "Symbol Reference" page section.
+
+**ANSWER**
+
+<h1>Symbol Reference</h1>
+
+<p>
+    Reserved characters: &lt;, &gt;, and &amp; are used in HTML.
+</p>
+
+<p>
+    Currency symbols: &euro;, &pound;, and &yen;.
+</p>
+
+<p>
+    Mathematical symbols: &ne;, &#x2211;, and &#8734;.
+</p>
+
+<p>
+    Arrows: &larr;, &#x2192;, and &#8593;.
+</p>
+
+<p>
+    Legal symbols: &copy;, &reg;, and &trade;.
+</p>
