@@ -59,6 +59,21 @@ A..D excludes A and selects B, C, D.
 
 A^..D includes A and selects A, B, C, D.
 
+<img width="1917" height="1077" alt="Git   GitHub Day 22 Assignment-02-02" src="https://github.com/user-attachments/assets/b8d0bd40-772e-42ba-acde-c2538bf4df4d" />
+
+<img width="1917" height="1077" alt="Git   GitHub Day 22 Assignment-02-03" src="https://github.com/user-attachments/assets/1e34edf9-ae6c-4640-906e-b3a072fb45f8" />
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/31aa7440-d9df-464e-8253-be7340fe5c39" />
+
+<img width="1917" height="1075" alt="image" src="https://github.com/user-attachments/assets/5644ecf4-9671-4ba5-af0b-b9bc6069edcb" />
+
+
+
+
+
+
+
+
 
 ==================================================
 Q2. PRACTICAL — CHERRY-PICK A SPECIFIC COMMIT
